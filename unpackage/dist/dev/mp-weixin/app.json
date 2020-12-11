@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "components/auto-progress/auto-progress"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/pagesA",
+      "pages": [
+        "home/home"
+      ]
+    },
+    {
+      "root": "pages/pagesB",
+      "pages": [
+        "set/set"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/img/index.png",
+        "selectedIconPath": "./static/img/index-active.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./static/img/my.png",
+        "selectedIconPath": "./static/img/my-active.png",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {}
+}

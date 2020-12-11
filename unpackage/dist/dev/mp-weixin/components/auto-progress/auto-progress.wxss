@@ -1,0 +1,65 @@
+
+.song-title{
+	margin: 30rpx;
+}
+.song-name{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 35rpx;
+	margin-top: 30rpx;
+}
+.song-author{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 25rpx;
+}
+.info{
+	background-color: #990000;
+	margin: 30rpx;
+	border-radius:5px
+}
+.iconbtn{
+	width: 60rpx;
+	height: 60rpx;	
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+.imt-audio {
+	padding: 30rpx;
+	background: #fff;
+	border-radius: 20rpx;
+}
+.audio-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 30rpx;
+}
+.audio-number {
+	font-size: 24rpx;
+	line-height: 1;
+	color: #FFFFFF;
+}
+.audio-slider {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin: 0 30rpx;
+}
+.audio-control-wrapper {
+	margin-top: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-family: "iconfont" !important;
+}
+

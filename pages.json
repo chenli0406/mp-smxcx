@@ -1,0 +1,61 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant/dist/button/index"
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {}
+		}, {
+			"path": "components/auto-progress/auto-progress",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"subPackages": [{
+		"root": "pages/pagesA",
+		"pages": [{
+			"path": "home/home",
+			"style": {}
+		}]
+	}, {
+		"root": "pages/pagesB",
+		"pages": [{
+			"path": "set/set",
+			"style": {}
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/img/index.png",
+				"selectedIconPath": "./static/img/index-active.png",
+				"text": ""
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "./static/img/my.png",
+				"selectedIconPath": "./static/img/my-active.png",
+				"text": ""
+			}
+		]
+	}
+}
